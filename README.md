@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="AnanyaMusic/assets/AnanyaBots.svg" alt="AnanyaMusicBot Logo" width="500px">
+  <img src="AnanyaMusic/assets/AnanyaMusic.svg" alt="AnanyaMusicBot Logo" width="500px">
 </p>
 
 <h1 align="center">🎵 Ananya Music Bot 🎵</h1>
