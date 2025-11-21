@@ -35,9 +35,9 @@ load_dotenv()
 API_ID = "20898349"
 API_HASH = getenv("API_HASH", "9fdb830d1e435b785f536247f49e7d87")
 BOT_TOKEN = getenv("BOT_TOKEN", "7850782505:AAEqo9EqgfkrsZ8fUx8W9A5ayL2EcJUwDxU")
-OWNER_ID = int(os.getenv("OWNER_ID", 7450385463))
-OWNER_USERNAME = os.getenv("OWNER_USERNAME", "WTF_NoHope")
-BOT_USERNAME = os.getenv("BOT_USERNAME", "RADHIKA_688U_MUSIC_BOT")
+OWNER_ID = 7450385463
+OWNER_USERNAME = "WTF_NoHope"
+BOT_USERNAME = "RADHIKA_688U_MUSIC_BOT"
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # 🛠️ Database & Deployment Configs
