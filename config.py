@@ -32,19 +32,19 @@ load_dotenv()
 # 📲 Telegram & API Credentials
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-API_ID = int(os.getenv("API_ID"))
-API_HASH = os.getenv("API_HASH")
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-OWNER_ID = int(os.getenv("OWNER_ID", None))
+API_ID = int(getenv("API_ID", "20898349"))
+API_HASH = getenv("API_HASH", "9fdb830d1e435b785f536247f49e7d87")
+BOT_TOKEN = getenv("BOT_TOKEN", "7850782505:AAEqo9EqgfkrsZ8fUx8W9A5ayL2EcJUwDxU")
+OWNER_ID = int(os.getenv("OWNER_ID", 7450385463))
 OWNER_USERNAME = os.getenv("OWNER_USERNAME", "WTF_NoHope")
-BOT_USERNAME = os.getenv("BOT_USERNAME", "Ananya_VcMusic_Bot")
+BOT_USERNAME = os.getenv("BOT_USERNAME", "RADHIKA_688U_MUSIC_BOT")
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # 🛠️ Database & Deployment Configs
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-MONGO_DB_URI = os.getenv("MONGO_DB_URI", None)
-LOG_GROUP_ID = int(os.getenv("LOG_GROUP_ID", None))
+MONGO_DB_URI = os.getenv("MONGO_DB_URI", "mongodb+srv://gurjasharma3:B8osAJ8FeinFOjNV@cluster0pandababy.cwkui6e.mongodb.net/AviaxMusic?retryWrites=true&w=majority&tls=true")
+LOG_GROUP_ID = int(os.getenv("LOG_GROUP_ID", "-1002564592666"))
 HEROKU_APP_NAME = os.getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = os.getenv("HEROKU_API_KEY")
 
@@ -93,7 +93,7 @@ SPOTIFY_CLIENT_SECRET = os.getenv("SPOTIFY_CLIENT_SECRET", None)
 # 🧵 Session Strings (Pyrogram V2)
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-STRING1 = os.getenv("STRING_SESSION", None)
+STRING1 = os.getenv("STRING_SESSION", "BQE-4i0ATEUTJrONIEvASz7hl-HPfSFLJkDK7DX2YsoLr1j_nkqqGxDGEsyeL-RlRmThTd2-E-F7475AkGhL1Fo6FTrwhKi0ySJ51ZKRpmsAj2vPYQ6b73jBTcGK21jpTC6O3o2CvA3tIRzVno_nhmV838DGkpvf06XjZtqZzabAC1cVETWLiCDoOG1zYsbqQWcqFzA-MNmXJdTQKvWEevaFdjWyZuaFlP0X9HW40qJCB1hxXZe5yjeEODiTMyQRCzpOs1ac1A-zQA56zRoYUFvGUVEq2LGsgXxQNbvQAGz5-rvgdBjDq-0_8s_dLqR7lnWDU-Rv71qjF2azR2dhsnpAtoVnHgAAAAHKarFXAA")
 STRING2 = os.getenv("STRING_SESSION2", None)
 STRING3 = os.getenv("STRING_SESSION3", None)
 STRING4 = os.getenv("STRING_SESSION4", None)
