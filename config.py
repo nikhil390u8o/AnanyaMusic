@@ -44,7 +44,7 @@ BOT_USERNAME = "RADHIKA_688U_MUSIC_BOT"
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 MONGO_DB_URI = os.getenv("MONGO_DB_URI", "mongodb+srv://gurjasharma3:B8osAJ8FeinFOjNV@cluster0pandababy.cwkui6e.mongodb.net/AviaxMusic?retryWrites=true&w=majority&tls=true")
-LOG_GROUP_ID = int(os.getenv("LOG_GROUP_ID", "-1002564592666"))
+LOG_GROUP_ID = -1002564592666
 HEROKU_APP_NAME = os.getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = os.getenv("HEROKU_API_KEY")
 
